@@ -17,5 +17,6 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 - pre-check ctrl+tab switch latest tab
 
 ### Arch + Hyprland
-- document hyprland dotfiles, hyprland.conf
+- save hyprland dotfiles, hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
+- save pacman.conf
