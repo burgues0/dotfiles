@@ -1,10 +1,9 @@
 #tabbrowser-tabs {
-  visibility: collapse;
+    visibility: collapse;
 }
 #titlebar {
-  order: 1;
-  max-width: 146px;
+    max-height: 0px;
 }
-#TabsToolbar .titlebar-buttonbox-container {
-  display: none;
+#TabsToolbar .titlebar-buttonbox-container .toolbar-items {
+    display: none;
 }
