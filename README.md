@@ -6,12 +6,16 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 
 ## To-Do
 
+### Firefox
 - automate new firefox user
 - add user.js to user dir
 - create /chrome in user dir
 - add userChrome.css to /chrome
 - add extentions
 > treestyletab, ublock origin, duckduckgo privacy, i still dont care about cookies, unhook, dark reader, password manager
+- pre-check reopen closed tabs
+- pre-check ctrl+tab switch latest tab
 
+### Arch + Hyprland
 - document hyprland dotfiles, hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
