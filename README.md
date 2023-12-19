@@ -6,6 +6,18 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 
 ## To-Do
 
+### Stack
+- git
+- firefox
+- networkmanager
+- pipewire
+- ranger
+- joplin
+- waybar
+- dunst
+- rofi
+- neovim
+
 ### Firefox
 - automate new firefox user
 - add user.js to user dir
@@ -20,3 +32,4 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 - save hyprland dotfiles, hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
 - save pacman.conf
+- 
