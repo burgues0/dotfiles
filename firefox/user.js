@@ -244,6 +244,14 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
 
+//dark mode - todo
+
+//ctrl+tab
+user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
+
+//maintain open tabs
+user_pref("browser.startup.page", 3);
+
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
 ****************************************************************************/
