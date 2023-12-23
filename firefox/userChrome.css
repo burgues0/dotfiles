@@ -4,6 +4,6 @@
 #titlebar {
     max-height: 0px;
 }
-#TabsToolbar .titlebar-buttonbox-container .toolbar-items {
+#TabsToolbar .titlebar-buttonbox-container {
     display: none;
 }
