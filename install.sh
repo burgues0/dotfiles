@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman --noconfirm -Syu pipewire pipewire-alsa pipewire-pulse wireplumber waybar firefox
+sudo pacman --noconfirm -Syu lf pipewire pipewire-alsa pipewire-pulse wireplumber waybar firefox
 
 firefox -CreateProfile test
 profile_dir="$(basename ~/.mozilla/firefox/*.test)"
