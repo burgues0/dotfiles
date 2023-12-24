@@ -14,6 +14,7 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 - lf
 - joplin
 - waybar
+- hyprpaper
 - dunst
 - rofi
 - neovim
