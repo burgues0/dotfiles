@@ -11,4 +11,3 @@ ln -s ~/distroset/waybar/ ~/.config
 ln -s ~/distroset/firefox/user.js ~/.mozilla/firefox/*.test/
 ln -s ~/distroset/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
 ln -s ~/distroset/hypr/ ~/.config
-ln -s ~/distroset/wallpapers/ ~
