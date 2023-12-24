@@ -11,7 +11,7 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 - firefox
 - networkmanager
 - pipewire
-- ranger
+- lf
 - joplin
 - waybar
 - dunst
@@ -25,11 +25,27 @@ Create a script that will reduce my downtime from distro-hopping and configure t
 - add userChrome.css to /chrome
 - add extentions
 > treestyletab, ublock origin, duckduckgo privacy, i still dont care about cookies, unhook, dark reader, password manager
-- pre-check reopen closed tabs
-- pre-check ctrl+tab switch latest tab
 
-### Arch + Hyprland
-- save hyprland dotfiles, hyprland.conf
+### Hyprland
+- archinstall script
+- clone this repo
+- ./install.sh to create the symlink to the hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
 - save pacman.conf
 - 
+
+### joplin
+
+https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md#synchronisation
+
+> Install through NPM directly
+
+#### After Install
+
+> :sync --upgrade
+
+
+
+
+
+
