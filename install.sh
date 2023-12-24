@@ -14,7 +14,7 @@
 # ---------------------------------------- 
 #  
 
-sudo pacman --noconfirm -S firefox waybar lf hyprpaper xclip figlet
+sudo pacman --noconfirm -S firefox lf waybar hyprpaper wl-clipboard figlet
 sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 sudo pacman --noconfirm -S nodejs npm
 sudo pacman --noconfirm -Syu
