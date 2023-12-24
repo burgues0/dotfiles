@@ -23,8 +23,8 @@ nmcli d wifi connect "<SSID>" --ask
 For firefox, the `install.sh` script:
 
 1. Creates a new firefox profile named after the $USER environment variable.
-2. Adds the [Betterfox]() user.js, with some custom tweaks for my personal preference
-3. Creates the /chrome folder inside the firefox profile folder, and adds the custom userChrome.css file
+2. Adds the [Betterfox]() user.js, with some custom tweaks for my personal preference.
+3. Creates the /chrome folder inside the firefox profile folder, and adds the custom userChrome.css file.
 
 To-do:
 - add extentions
@@ -36,7 +36,6 @@ To-do:
 - ./install.sh to create the symlink to the hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
 - save pacman.conf
-- 
 
 ### joplin
 
