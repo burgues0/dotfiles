@@ -4,26 +4,29 @@ Distroset is my personal environment configuration for a cleaner linux distro tr
 ## Objective
 Create a script that will reduce my downtime from distro-hopping and configure the minimum required to get some work done.
 
-## To-Do
+### nmcli after archinstall
 
-### Stack
-- git
-- firefox
-- networkmanager
-- pipewire
-- lf
-- joplin
-- waybar
-- hyprpaper
+```cmd
+nmcli d
+nmcli r wifi on
+nmcli d wifi list
+nmcli d wifi connect "<SSID>" --ask
+```
+
+### To-add
 - dunst
 - rofi
 - neovim
 
 ### Firefox
-- automate new firefox user
-- add user.js to user dir
-- create /chrome in user dir
-- add userChrome.css to /chrome
+
+For firefox, the `install.sh` script:
+
+1. Creates a new firefox profile named after the $USER environment variable.
+2. Adds the [Betterfox]() user.js, with some custom tweaks for my personal preference
+3. Creates the /chrome folder inside the firefox profile folder, and adds the custom userChrome.css file
+
+To-do:
 - add extentions
 > treestyletab, ublock origin, duckduckgo privacy, i still dont care about cookies, unhook, dark reader, password manager
 
@@ -45,8 +48,4 @@ https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md#synchronisa
 
 > :sync --upgrade
 
-
-
-
-
-
+to sync with Onedrive (later will change to Nextcloud)

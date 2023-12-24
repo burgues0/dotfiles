@@ -14,7 +14,8 @@
 # ---------------------------------------- 
 #  
 
-sudo pacman --noconfirm -S firefox lf waybar hyprpaper wl-clipboard figlet
+sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet
+sudo pacman --noconfirm -S waybar hyprpaper
 sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 sudo pacman --noconfirm -S nodejs npm
 sudo pacman --noconfirm -Syu
@@ -41,6 +42,8 @@ sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
 #
 #Symbolic Links
 #
+
+# to-do: check if locations exist, if true rm -rf then symlink
 
 ln -s ~/distroset/waybar/ ~/.config
 ln -s ~/distroset/firefox/user.js ~/.mozilla/firefox/*.test/
