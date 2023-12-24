@@ -1,8 +1,8 @@
-# distroset
-Distroset is my personal environment configuration for a cleaner linux distro transition.
+# dotfiles
+Dotfiles is my personal environment configuration for a cleaner archlinux installation.
 
 ## Objective
-Create a script that will reduce my downtime from distro-hopping and configure the minimum required to get some work done.
+Create a script that will reduce my downtime from reinstalling and configuring my workstation in archlinux installs.
 
 ### nmcli after archinstall
 
