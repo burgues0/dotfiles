@@ -48,3 +48,9 @@ https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md#synchronisa
 > :sync --upgrade
 
 to sync with Onedrive (later will change to Nextcloud)
+
+### Alacritty
+
+Example file: /usr/share/doc/alacritty/example/alacritty.yml
+
+
