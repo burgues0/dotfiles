@@ -23,7 +23,7 @@ nmcli d wifi connect "<SSID>" --ask
 For firefox, the `install.sh` script:
 
 1. Creates a new firefox profile named after the $USER environment variable.
-2. Adds the [Betterfox]() user.js, with some custom tweaks for my personal preference.
+2. Adds the [Betterfox](https://github.com/yokoffing/Betterfox) user.js, with some custom tweaks for my personal preference.
 3. Creates the /chrome folder inside the firefox profile folder, and adds the custom userChrome.css file.
 
 To-do:
