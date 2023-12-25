@@ -18,6 +18,7 @@
 # ---------------------------------------- 
 #  
 
+#killall hyprpaper
+#hyprpaper &
 
-killall hyprpaper
-hyprpaper &
+hyprctl hyprpaper wallpaper "eDP-1,~/wallpapers/vagabond.jpg"

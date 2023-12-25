@@ -1,8 +1,11 @@
 # dotfiles
 Dotfiles is my personal environment configuration for a cleaner archlinux installation.
 
-## Objective
-Create a script that will reduce my downtime from reinstalling and configuring my workstation in archlinux installs.
+### Color Scheme
+
+Main Background: 	#1d1f21d9 | rgba(29,31,33,0.85)
+Main Content Color: 	#c5c8c6   | rgb(197,200,198)
+2ndary Content Color: 	#f5f5dc   | rgb(245,245,220)
 
 ### nmcli after archinstall
 
@@ -15,7 +18,6 @@ nmcli d wifi connect "<SSID>" --ask
 
 ### To-add
 - dunst
-- rofi
 - neovim
 
 ### Firefox

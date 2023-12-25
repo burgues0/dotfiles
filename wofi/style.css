@@ -6,6 +6,11 @@ window {
 	color: #c5c8c6;
 }
 
+image {
+	margin-left: 4px;
+	margin-right: 8px;
+}
+
 #outer-box {
 	border: 2px solid #f5f5dc;
 	border-radius: 3px;
@@ -15,6 +20,10 @@ window {
 	border-style: none;
 	border-radius: 0px;
 	background-color: #f5f5dc;
+}
+
+#entry {
+	padding: 8px;
 }
 
 #entry:selected {
