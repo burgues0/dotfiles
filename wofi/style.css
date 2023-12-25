@@ -1,0 +1,26 @@
+window {
+	font-size: 15px;
+	font-family: "monospace";
+
+	background-color: rgba(29,31,33,0.85);
+	color: #c5c8c6;
+}
+
+#outer-box {
+	border: 2px solid #f5f5dc;
+	border-radius: 3px;
+}
+
+#input {
+	border-style: none;
+	border-radius: 0px;
+	background-color: #f5f5dc;
+}
+
+#entry:selected {
+	background-color: #c5c8c6;
+}
+
+#text:selected {
+	color: #1d1f21;
+}
