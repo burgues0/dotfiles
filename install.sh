@@ -14,11 +14,13 @@
 # ---------------------------------------- 
 #  
 
-#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty wofi
+#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty
 #sudo pacman --noconfirm -S waybar hyprpaper
 #sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 #sudo pacman --noconfirm -S nodejs npm
 #sudo pacman --noconfirm -Syu
+#add paru
+#paru -S rofi-lbonn-wayland-git
 
 #
 #Firefox Setup
@@ -48,7 +50,7 @@
 ln -s ~/dotfiles/hypr/ ~/.config
 ln -s ~/dotfiles/waybar/ ~/.config
 ln -s ~/dotfiles/alacritty/ ~/.config
-ln -s ~/dotfiles/wofi/ ~/.config
+ln -s ~/dotfiles/rofi/ ~/.config
 ln -s ~/dotfiles/firefox/user.js ~/.mozilla/firefox/*.test/
 ln -s ~/dotfiles/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
 ln -s ~/dotfiles/wallpapers/ ~
