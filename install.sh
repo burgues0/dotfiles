@@ -14,7 +14,7 @@
 # ---------------------------------------- 
 #  
 
-#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty
+#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty grim slurp
 #sudo pacman --noconfirm -S waybar hyprpaper
 #sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 #sudo pacman --noconfirm -S nodejs npm
