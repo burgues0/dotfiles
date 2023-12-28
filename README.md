@@ -32,8 +32,7 @@ To-do:
 - add extentions
 > treestyletab, ublock origin, duckduckgo privacy, i still dont care about cookies, unhook, dark reader, password manager
 
-### Hyprland
-- archinstall script
+### Hybprland
 - clone this repo
 - ./install.sh to create the symlink to the hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)

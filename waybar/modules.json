@@ -1,5 +1,12 @@
 {
-    // workspaces
+    //modules left
+    //
+    "backlight": {
+	// "device": "acpi_video1",
+	"format": "{icon}",
+	"format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    //modules center
     "hyprland/workspaces": {
 	"on-click": "activate",
         "active-only": false,
@@ -11,5 +18,5 @@
 	    "default": "",	
 	}
     }
-    //more components
+    //modules right
 }

@@ -5,6 +5,7 @@ configuration {
   modi: "window,run,drun";
   show-icons: true;
   icon-theme: "Papirus";
+  //normalize-match: false;
 }
 
 @theme "theme"
