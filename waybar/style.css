@@ -3,6 +3,7 @@
     margin-top: -1;
     margin-bottom: -1;
     padding-left: 0;
+    min-height: 0;
 }
 
 window#waybar {
@@ -14,24 +15,24 @@ window#waybar {
     margin: 5px 5px 5px 5px;
     padding: 4px 1px;
     border-radius: 20px;
+    border: .5px solid #1d1f21;
     font-weight: normal;
     font-style: normal;
     background: #f5f5dc;
     opacity: 0.85;
-    border: .5px solid #1d1f21;
 }
 
 #workspaces button {
-    padding: 0px 12px;
+    padding: 0px 2px;
     margin: 0px 3px ;
-    border-radius: 12px;
+    border-radius: 20px;
     color: #1d1f21;
     background-color: #1d1f21;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-out;
 }
 
 #workspaces button label {
-    font-size: 0px;
+    font-size: 10px;
 }
 
 #workspaces button.active {
@@ -40,10 +41,19 @@ window#waybar {
     border-radius: 20px;
     min-width: 45px;
     background-size: 400% 400%;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-out;
     opacity: 1.0;
 }
 
-#backlight, #pulseaudio {
+#pulseaudio {
+    margin: 5px 5px 5px 5px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    border: .5px solid #1d1f21;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    transition: none;
+    color: #1d1f21;
+    background-color: #f5f5dc;
 }
-
