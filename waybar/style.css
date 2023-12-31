@@ -66,6 +66,10 @@ window#waybar {
     margin-left: 5px;
 }
 
+#battery {
+    padding-right: 14px;
+}
+
 #clock {
     margin-right: 5px;
 }

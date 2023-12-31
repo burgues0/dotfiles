@@ -14,13 +14,20 @@
 # ---------------------------------------- 
 #  
 
-#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty grim slurp
+#sudo pacman --noconfirm -S firefox git lf wl-clipboard figlet alacritty grim slurp bluez bluez-utils
 #sudo pacman --noconfirm -S waybar hyprpaper
 #sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 #sudo pacman --noconfirm -S nodejs npm
 #sudo pacman --noconfirm -Syu
 #add paru
 #paru -S rofi-lbonn-wayland-git
+
+#
+#Start Bluetooth Service
+#
+
+#sudo systemctl enable bluetooth.service
+#add $(USER) to lp group
 
 #
 #Firefox Setup

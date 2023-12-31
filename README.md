@@ -16,6 +16,10 @@ nmcli d wifi list
 nmcli d wifi connect "<SSID>" --ask
 ```
 
+### System Configs
+
+- uncomment IdleAction=suspend and IdleActionSec in /etc/systemd/logind.conf
+
 ### To-add
 - dunst
 - neovim
