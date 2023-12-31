@@ -54,4 +54,6 @@ to sync with Onedrive (later will change to Nextcloud)
 
 Example file: /usr/share/doc/alacritty/example/alacritty.yml
 
+### Waybar
 
+To enable the keyboard-state, check if current user is in the /etc/group "input"

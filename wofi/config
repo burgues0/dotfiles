@@ -1,8 +1,0 @@
-# man 5 wofi
-mode=drun
-allow_images=true
-width=40%
-prompt=Search
-term=alacritty
-hide_scroll=true
-exec_search=true
