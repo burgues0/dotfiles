@@ -52,7 +52,7 @@
 #Grim Setup
 #
 
-mkdir -p ~/pictures/screenshots
+#mkdir -p ~/pictures/screenshots
 
 #
 #Symbolic Links
@@ -60,10 +60,11 @@ mkdir -p ~/pictures/screenshots
 
 # to-do: check if locations exist, if true rm -rf then symlink
 
-ln -s ~/dotfiles/hypr/ ~/.config
-ln -s ~/dotfiles/waybar/ ~/.config
-ln -s ~/dotfiles/alacritty/ ~/.config
-ln -s ~/dotfiles/rofi/ ~/.config
-ln -s ~/dotfiles/firefox/user.js ~/.mozilla/firefox/*.test/
-ln -s ~/dotfiles/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
-ln -s ~/dotfiles/wallpapers/ ~/pictures
+#ln -s ~/dotfiles/hypr/ ~/.config
+#ln -s ~/dotfiles/waybar/ ~/.config
+#ln -s ~/dotfiles/alacritty/ ~/.config
+#ln -s ~/dotfiles/rofi/ ~/.config
+#ln -s ~/dotfiles/firefox/user.js ~/.mozilla/firefox/*.test/
+#ln -s ~/dotfiles/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
+#ln -s ~/dotfiles/wallpapers/ ~/pictures
+#ln -s ~/dotfiles/nvim/ ~/.config
