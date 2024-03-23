@@ -2,7 +2,7 @@
     visibility: collapse;
 }
 #titlebar {
-    max-height: 0px;
+    max-height: 5px;
 }
 #TabsToolbar .titlebar-buttonbox-container {
     display: none;
