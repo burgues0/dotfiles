@@ -33,10 +33,10 @@
 #Firefox Setup
 #
 
-#when done, replace "test" with $USER
+#to-do: check if $USER folder exists
 
-#firefox -CreateProfile test
-#profile_dir="$(basename ~/.mozilla/firefox/*.test)"
+#firefox -CreateProfile $USER
+#profile_dir="$(basename ~/.mozilla/firefox/*.$USER)"
 #mkdir -p ~/.mozilla/firefox/$profile_dir/chrome
 
 #
