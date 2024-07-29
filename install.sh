@@ -40,15 +40,6 @@
 #mkdir -p ~/.mozilla/firefox/$profile_dir/chrome
 
 #
-#Joplin Setup
-#
-
-#https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md
-
-#NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin
-#sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
-
-#
 #Grim Setup
 #
 
@@ -60,11 +51,11 @@
 
 # to-do: check if locations exist, if true rm -rf then symlink
 
-#ln -s ~/dotfiles/hypr/ ~/.config
-#ln -s ~/dotfiles/waybar/ ~/.config
-#ln -s ~/dotfiles/alacritty/ ~/.config
-#ln -s ~/dotfiles/rofi/ ~/.config
-#ln -s ~/dotfiles/firefox/user.js ~/.mozilla/firefox/*.test/
-#ln -s ~/dotfiles/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
-#ln -s ~/dotfiles/wallpapers/ ~/pictures
-#ln -s ~/dotfiles/nvim/ ~/.config
+#ln -s ~/dotfiles/apps/hypr/ ~/.config
+#ln -s ~/dotfiles/apps/waybar/ ~/.config
+#ln -s ~/dotfiles/apps/alacritty/ ~/.config
+#ln -s ~/dotfiles/apps/rofi/ ~/.config
+#ln -s ~/dotfiles/apps/firefox/user.js ~/.mozilla/firefox/*.test/
+#ln -s ~/dotfiles/apps/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
+#ln -s ~/dotfiles/apps/wallpapers/ ~/pictures
+#ln -s ~/dotfiles/apps/nvim/ ~/.config
