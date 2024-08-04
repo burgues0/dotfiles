@@ -12,6 +12,7 @@ System Monitor: btop
 ## § Color Scheme
 
 |  | HEX | RGB |
+|:---:|:---:|:---:|
 | Background | #1d1f21d9 | rgba(29,31,33,0.85 |
 | Main Content | #c5c8c6 | rgb(197,200,198) |
 | Sub Content | #f5f5dc | rgb(245,245,220) |
