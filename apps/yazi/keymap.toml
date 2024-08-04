@@ -1,0 +1,4 @@
+#[[manager.prepend_keymap]]
+#on = [ "d" ]
+#exec = ["remove --force"]
+#desc = "Move the files to the trash"
