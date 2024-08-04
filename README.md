@@ -1,11 +1,22 @@
-# dotfiles
-Dotfiles is my personal environment configuration for a cleaner archlinux installation.
+# ! dotfiles
+Repository to store my personal configuration files.
 
-### Color Scheme
+## § Main Tools Used
+Browser: Firefox
+File Explorer: Yazi
+Text Editor: Neovim
+IDE: VSCodium
+Terminal: KiTTY
+System Monitor: btop
 
-Main Background: 	#1d1f21d9 | rgba(29,31,33,0.85)
-Main Content Color: 	#c5c8c6   | rgb(197,200,198)
-2ndary Content Color: 	#f5f5dc   | rgb(245,245,220)
+## § Color Scheme
+
+|  | HEX | RGB |
+| Background | #1d1f21d9 | rgba(29,31,33,0.85 |
+| Main Content | #c5c8c6 | rgb(197,200,198) |
+| Sub Content | #f5f5dc | rgb(245,245,220) |
+
+# TO-DO: review the readme and remove unnecessary stuff VVVVVV
 
 ### nmcli after archinstall
 
@@ -32,11 +43,7 @@ For firefox, the `install.sh` script:
 2. Adds the [Betterfox](https://github.com/yokoffing/Betterfox) user.js, with some custom tweaks for my personal preference.
 3. Creates the /chrome folder inside the firefox profile folder, and adds the custom userChrome.css file.
 
-To-do:
-- add extentions
-> treestyletab, ublock origin, duckduckgo privacy, i still dont care about cookies, unhook, dark reader, password manager
-
-### Hybprland
+### Hyprland
 - clone this repo
 - ./install.sh to create the symlink to the hyprland.conf
 - automate arch post-install (wifi, localectl, nmcli)
@@ -53,10 +60,6 @@ https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md#synchronisa
 > :sync --upgrade
 
 to sync with Onedrive (later will change to Nextcloud)
-
-### Alacritty
-
-Example file: /usr/share/doc/alacritty/example/alacritty.yml
 
 ### Waybar
 
