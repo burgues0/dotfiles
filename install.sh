@@ -30,9 +30,10 @@ dotfilesdir=$homedir/dotfiles/apps
 
 # Removing unused packages and installing main packages (archinstall)
 # > sudo pacman --noconfirm -Rns dolphin htop
-# > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop
+# > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop cmus
+# > sudo pacman --noconfirm -S unarchiver poppler p7zip fzf fd ripgrep
 # > cd $homedir; sudo pacman --noconfirm -S --needed base-devel; cd aur; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si
-# > paru -S --sudoloop hyprshot joplin-desktop
+# > paru -S --sudoloop hyprshot joplin-desktop vesktop-bin
 
 #################
 # Firefox Setup # # DONE
