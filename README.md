@@ -3,10 +3,15 @@ Repository to store my personal configuration files.
 
 ## § Main Tools Used
 Browser: Firefox
+
 File Explorer: Yazi
+
 Text Editor: Neovim
+
 IDE: VSCodium
+
 Terminal: KiTTY
+
 System Monitor: btop
 
 ## § Color Scheme
