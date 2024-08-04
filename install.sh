@@ -14,26 +14,34 @@
 # ---------------------------------------- 
 #  
 
-# Initial file structure
-# > mkdir -p ~/aur ~/downloads ~/pictures
+homedir=/home/$USER
+dotfilesdir=$homedir/dotfiles/apps
 
-# [Arch Install from minimal install]
+# Initial file structure
+# > mkdir -p $homedir/aur $homedir/downloads $homedir/pictures/screenshots
+
+# [Arch Install from minimal install - do later, for now go for archinstall (im lazy)]
 # > sudo pacman --noconfirm -S openssh wget xdg-utils iwd smartmontools wireless_tools nano wpa_supplicant
 # > sudo pacman --noconfirm -S hyprland qt5-wayland wofi dunst kitty qt6-wayland xdg-desktop-portal-hyprland grim slurp
+
+#####################
+# After Archinstall #
+#####################
 
 # Removing unused packages and installing main packages (archinstall)
 # > sudo pacman --noconfirm -Rns dolphin htop
 # > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop
-
+# > cd $homedir; sudo pacman --noconfirm -S --needed base-devel; cd aur; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si
+# > paru -S --sudoloop hyprshot joplin-desktop
 
 #################
 # Firefox Setup # # DONE
 #################
 
 # > firefox -CreateProfile $USER
-# > profile_dir="$(basename ~/.mozilla/firefox/*.$USER)"
-# > mkdir -p ~/.mozilla/firefox/$profile_dir/chrome
-# > bash ~/dotfiles/apps/firefox/betterfox.sh
+# > profile_dir="$(basename $homedir/.mozilla/firefox/*.$USER)"
+# > mkdir -p $homedir/.mozilla/firefox/$profile_dir/chrome
+# > bash $dotfilesdir/firefox/betterfox.sh
 
 
 # REVIEW LATER VVVVVV
@@ -43,8 +51,6 @@
 #sudo pacman --noconfirm -S pipewire pipewire-alsa pipewire-pulse wireplumber
 #sudo pacman --noconfirm -S nodejs npm
 #sudo pacman --noconfirm -Syu
-#add paru
-#paru -S rofi-lbonn-wayland-git
 
 #
 #Start Bluetooth Service
@@ -53,17 +59,20 @@
 #sudo systemctl enable bluetooth.service
 #add $(USER) to lp group
 
-#
-#Symbolic Links
-#
+##################
+# Symbolic Links #
+##################
 
 # to-do: check if locations exist, if true rm -rf then symlink
 
-#ln -s ~/dotfiles/apps/hypr/ ~/.config
+#ln -s $dotfilesdir/wallpapers/ $homedir/pictures
+#ln -s $dotfilesdir/hypr/ $homedir/.config
+#ln -s $dotfilesdir/kitty/ $homedir/.config
+#ln -s $dotfilesdir/yazi/ $homedir/.config
+#ln -s $dotfilesdir/firefox/userChrome.css $homedir/.mozilla/firefox/*.$USER/chrome/
+#ln -s $dotfilesdir/firefox/user.js $homedir/.mozilla/firefox/*.$USER/
+
+
 #ln -s ~/dotfiles/apps/waybar/ ~/.config
-#ln -s ~/dotfiles/apps/alacritty/ ~/.config
 #ln -s ~/dotfiles/apps/rofi/ ~/.config
-#ln -s ~/dotfiles/apps/firefox/user.js ~/.mozilla/firefox/*.test/
-#ln -s ~/dotfiles/apps/firefox/userChrome.css ~/.mozilla/firefox/*.test/chrome/
-#ln -s ~/dotfiles/apps/wallpapers/ ~/pictures
 #ln -s ~/dotfiles/apps/nvim/ ~/.config
