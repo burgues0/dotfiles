@@ -3,7 +3,6 @@ Repository to store my personal configuration files.
 
 ## § Main Tools Used
 
-|  |  |
 |:---:|:---:|
 | Browser | Firefox |
 | Text Editor | Yazi |
