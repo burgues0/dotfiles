@@ -33,7 +33,7 @@ dotfilesdir=$homedir/dotfiles/apps
 # > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop cmus
 # > sudo pacman --noconfirm -S unarchiver poppler p7zip fzf fd ripgrep
 # > cd $homedir; sudo pacman --noconfirm -S --needed base-devel; cd aur; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si
-# > paru -S --sudoloop hyprshot joplin-desktop vesktop-bin
+# > paru -S --sudoloop hyprshot joplin-desktop vesktop-bin vscodium-bin
 
 #################
 # Firefox Setup # # DONE
