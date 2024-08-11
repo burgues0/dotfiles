@@ -49,12 +49,8 @@ bashrc=$homedir/.bashrc
 # Bashrc Aliases #
 ##################
 
-# echo "alias fastfetch='fastfetch -l small --logo-padding-top 3 --logo-padding-left 4 --logo-padding-right 4'" >> $bashrc
-#
-#
-#
-# source $bashrc
-
+# > bash $homedir/dotfiles/scripts/aliases.sh
+# > source $bashrc
 
 
 # REVIEW LATER VVVVVV
