@@ -72,7 +72,7 @@ dotfilesdir=$homedir/dotfiles/apps
 #ln -s $dotfilesdir/yazi/ $homedir/.config
 #ln -s $dotfilesdir/firefox/userChrome.css $homedir/.mozilla/firefox/*.$USER/chrome/
 #ln -s $dotfilesdir/firefox/user.js $homedir/.mozilla/firefox/*.$USER/
-
+#ln -s $doftilesdir/fastfetch/ $homedir/.config
 
 #ln -s ~/dotfiles/apps/waybar/ ~/.config
 #ln -s ~/dotfiles/apps/rofi/ ~/.config
