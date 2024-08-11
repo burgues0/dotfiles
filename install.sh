@@ -16,6 +16,7 @@
 
 homedir=/home/$USER
 dotfilesdir=$homedir/dotfiles/apps
+bashrc=$homedir/.bashrc
 
 # Initial file structure
 # > mkdir -p $homedir/aur $homedir/downloads $homedir/pictures/screenshots
@@ -43,6 +44,17 @@ dotfilesdir=$homedir/dotfiles/apps
 # > profile_dir="$(basename $homedir/.mozilla/firefox/*.$USER)"
 # > mkdir -p $homedir/.mozilla/firefox/$profile_dir/chrome
 # > bash $dotfilesdir/firefox/betterfox.sh
+
+##################
+# Bashrc Aliases #
+##################
+
+# echo "alias fastfetch='fastfetch -l small --logo-padding-top 3 --logo-padding-left 4 --logo-padding-right 4'" >> $bashrc
+#
+#
+#
+# source $bashrc
+
 
 
 # REVIEW LATER VVVVVV
