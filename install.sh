@@ -19,7 +19,7 @@ dotfilesdir=$homedir/dotfiles/apps
 bashrc=$homedir/.bashrc
 
 # Initial file structure
-# > mkdir -p $homedir/aur $homedir/downloads $homedir/pictures/screenshots
+# > mkdir -p $homedir/aur $homedir/downloads $homedir/pictures/screenshots $homedir/python-envs
 
 # [Arch Install from minimal install - do later, for now go for archinstall (im lazy)]
 # > sudo pacman --noconfirm -S openssh wget xdg-utils iwd smartmontools wireless_tools nano wpa_supplicant
@@ -31,7 +31,7 @@ bashrc=$homedir/.bashrc
 
 # Removing unused packages and installing main packages (archinstall)
 # > sudo pacman --noconfirm -Rns dolphin htop
-# > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop cmus
+# > sudo pacman --noconfirm -S firefox yazi hyprpaper fastfetch btop cmus python-pip
 # > sudo pacman --noconfirm -S unarchiver poppler p7zip fzf fd ripgrep
 # > cd $homedir; sudo pacman --noconfirm -S --needed base-devel; cd aur; git clone https://aur.archlinux.org/paru.git; cd paru; makepkg -si
 # > paru -S --sudoloop hyprshot joplin-desktop vesktop-bin vscodium-bin
@@ -52,6 +52,15 @@ bashrc=$homedir/.bashrc
 # > bash $homedir/dotfiles/scripts/aliases.sh
 # > source $bashrc
 
+#######################
+# Python Virtual Envs #
+#######################
+
+# > venv dir created earlier in the Initial file structure
+# > python -m venv $homedir/python-envs/
+# to run stuff:
+# $homedir/python-envs/bin/python or $homedir/python-envs/bin/pip
+# $homedir/python-envs/bin/[command] (spotdl for example)
 
 # REVIEW LATER VVVVVV
 
